@@ -1,0 +1,23 @@
+//#OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+//#Debug files
+*.log
+*.sql
+
+//#wordpress.standard.files/folders
+uploads
+upgrades
+
+//wordpress.plugin.folders
+plugins/current-template-file
+plugins/gutenberg
+
+//#SRC .files/folders
+node_modules
