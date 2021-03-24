@@ -1,4 +1,7 @@
 @import url("https://use.typekit.net/tll3wuz.css");
+body{
+    overflow-x: hidden;
+}
 header{
     background-color: #f4d6db;
 }
@@ -70,6 +73,9 @@ h2{
     margin-top: -385px;
     height: 200px;
     box-shadow: 20px 10px 20px grey;
+}
+.wp-image-364{
+    margin-right: 100px;
 }
 .heading1{
     margin-left: -800px;
@@ -143,6 +149,9 @@ h2{
 }
 footer{
     background-color: #f4d6db;
+}
+.site-info{
+    height: 200px;
 }
 .entry-footer{
     visibility: hidden;
@@ -853,4 +862,8 @@ h2{
 
 form.woocommerce-EditAccountForm.edit-account{
     margin-left: -400px;
+}
+
+.wp-image-413{
+    margin-left: -100px;
 }
