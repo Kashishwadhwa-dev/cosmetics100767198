@@ -139,9 +139,26 @@ add_action( 'widgets_init', 'beglamrs_widgets_init' );
 /**
  * Enqueue scripts and styles.
  */
+/*
 function beglamrs_scripts() {
 	wp_enqueue_style( 'beglamrs-style', get_stylesheet_uri(), array(), _S_VERSION );
 
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'beglamrs_scripts' );
+*/
+function beglamrs_scripts() {
+	wp_enqueue_style( 'beglamrs-style', get_stylesheet_uri(), array(), _S_VERSION );
+
+	//foundation
+wp_enqueue_style('foundation-style',get_template_directory_uri() . '/assets/css/foundation.css');
+wp_enqueue_script('foundation-script',get_template_directory_uri() . '/assets/js/foundation.js', array(), false, true);
+
+wp_enqueue_style('customstyle-style',
+	get_template_directory_uri() . '/assets/css/customstyle.css'
+	);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
