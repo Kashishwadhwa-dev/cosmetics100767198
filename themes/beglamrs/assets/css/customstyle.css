@@ -139,8 +139,6 @@ h3{
     height: 200px;
 }
 
-/****************************** Home Page Styling Ended *******************************/
-
 /****************************** Shop Page Styling Started *******************************/
 
 
@@ -169,103 +167,19 @@ h3{
     font-size: 28px;
     margin: 30px;
 }
-.lipstick{
-    width: 500px;
-    height: 600px;
-    padding-left: 100px;
-    margin-left: -15px;
-}
-.lip1{
-    margin-left: -900px;
-    margin-top: -50px;
-    font-size: 27px;
-}
-.lipprice{
-    margin-left: 200px;
-}
-.serum{
-    width: 500px;
-    height: 700px;
-    padding-left: 100px;
-    margin-left: 430px;
-    margin-top: -660px;
-}
-.serum1{
-    margin-left: 100px;
-    margin-top: -150px;
-    font-size: 27px;
-}
-.serumprice{
-    margin-left: 700px;
-}
-.mask{
-    width: 500px;
-    height: 700px;
-    padding-left: 100px;
-    margin-left: 870px;
-    margin-top: -660px;
-}
-.mask1{
-    margin-left: 900px;
-    margin-top: -150px;
-    font-size: 27px;
-}
-.maskprice{
-    margin-left: 1100px;
-}
-.myst{
-    width: 500px;
-    height: 700px;
-    padding-left: 100px;
-    margin-left: -10px;
-    margin-top: 70px;
-}
-.myst1{
-    margin-left: -850px;
-    margin-top: -150px;
-    font-size: 27px;
-}
-.mystprice{
-    margin-left: 230px;
-}
-.mascara{
-    width: 500px;
-    height: 700px;
-    padding-left: 100px;
-    margin-left: 440px;
-    margin-top: -660px;
-}
-.mascara1{
-    margin-left: 50px;
-    margin-top: -150px;
-    font-size: 27px;
-}
-.mascaraprice{
-    margin-left: 680px;
-}
-.tresemme{
-    width: 500px;
-    height: 700px;
-    padding-left: 100px;
-    margin-left: 880px;
-    margin-top: -660px;
-}
-.tresemme1{
-    margin-left: 950px;
-    margin-top: -150px;
-    font-size: 27px;
-}
-.tresemmeprice{
-    margin-left: 1120px;
-}
 
+/* shop slider styling */
+.shopsl{
+    margin-top: -80px;
+}
 .woocommerce ul.products li.product a {
     text-decoration: none;
     margin-left: 20px;
     font-size: 19px;
     font-weight: bold;
 }
-/*about */
+
+/****************************** About Page Styling Started *******************************/
 
 .girlpic{
     width:450px;
@@ -273,17 +187,23 @@ h3{
     margin-left: 120px;
     margin-top: 30px;
 }
+/*About us heading */
 .as{
     margin-top: -60px;
 }
+/*About us first paragraph styling */
 .astxt{
     margin-left: -10px !important;
     color: black;
 }
+
+/*About us second paragraph styling */
 .astxt2{
     margin-left: -30px;
     color: black;
 }
+
+/*About us third paragraph styling */
 .astxt3{
     margin-left: -10px !important;
     margin-top: -10px;
@@ -294,21 +214,10 @@ h3{
     margin-top: 40px;
     margin-bottom: -30px;
 }
-.wp-image-184{
-    margin-top: 30px;
-    margin-left:20px;
-}
-.wp-image-60{
-    margin-top: -30px;
-    width: 1100px;
-    margin-left: 500px;
-}
-.im{
-    margin-top: -60px;
-    width: 1500px;
-    margin-left: 250px;
-}
-/*contact*/
+
+
+/****************************** Contact us Page Styling Started *******************************/
+
 form{
     margin-left: 450px;
 }
@@ -349,7 +258,10 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
     margin-left: 120px;
     margin-top: 20px;
 }
-/*BLOG*/
+
+
+/****************************** Blog Page Styling Started *******************************/
+
 
 .wp-block-media-text__media img, .wp-block-media-text__media video {
     max-width: unset;
@@ -363,6 +275,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
     margin-left: -150px;
     margin-right: 100px;
 }
+/* 6 posts styled */
 #post-250{
     border: 2px solid #c01556;
     box-shadow: 20px 10px 20px grey;
@@ -459,6 +372,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
     width: 600px;
 }
 
+/* heading above each post styled */
 .head{
     padding: 10px;
     color: black;
@@ -510,6 +424,9 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
     color: black;
     margin-top: -120px;
 }
+/* heading ended */
+
+
 .wp-image-305{
     margin-left: 170px;
 }
@@ -533,7 +450,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
     width: 900px;
 }
 
-
+/* input and button for contact page styled */
 button, input[type="button"], input[type="reset"], input[type="submit"] {
     border: 1px solid;
     border-color: #ccc #ccc #bbb;
@@ -543,7 +460,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     line-height: 1;
     padding: 0.6em 1em 0.4em;
 }
-/*shop */
+
+
+/***************************** Woocommerce styling on shop page ********************************/
+
+
 .woocommerce ul.products li.product .button {
     margin-top: 1em;
     background-color:#c01556;
@@ -624,7 +545,8 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     border-radius: 5px 5px 5px 5px;
     background-color: #c01556;
 }
-/*product single*/
+
+/************************* Woocommerce styling on product single page **********************/
 
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
     font-size: 100%;
@@ -730,7 +652,10 @@ strong{
     padding: 40px;
 }
 
-/*cart*/
+
+/********************************* Woocommerce styling on cart page *************************/
+
+
 .woocommerce table.shop_table {
     border: 1px solid rgba(0,0,0,.1);
     margin: 0 -1px 24px 0;
@@ -784,7 +709,9 @@ thead tr, tfoot tr {
     width: 140px;
     color: black;
 }
-/*checkout*/
+
+/****************************** Checkout page styling ******************************/
+
 .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
     float: left;
     width: 48%;
@@ -865,12 +792,6 @@ p{
     margin-left: 10px;
 }
 
-.by, .privacy{
-    text-align: center;
-    color: black;
-    margin-left: -40px;
-    font-size: 17px;
-}
 .contacthead{
     margin-top: -50px;
 }
@@ -886,6 +807,12 @@ p{
     margin-left: 50px;
     margin-bottom: 20px;
 }
+.by, .privacy{
+    text-align: center;
+    color: black;
+    margin-left: -40px;
+    font-size: 17px;
+}
 
 #footer-menu{
     margin-top:100px;
@@ -900,6 +827,7 @@ p{
 }
 
 /****************************** Footer styling ended ****************************/
+
 /*********************************** Mobile view ********************************/
 @media (max-width: 824px){
 
@@ -919,6 +847,9 @@ p{
         margin-top: -200px;
         margin-left: -40px;
     }
+    .homeprod{
+        margin-left: 50px;
+    }
     .post-301, .post-283,.post-268, .post-258, .post-250, .post-177{
         margin-left: -500px;
     }
@@ -932,14 +863,88 @@ p{
     .woocommerce-loop-product__title{
         font-size: 11px;
     }
+    .woocommerce-cart-form{
+        margin-left: 260px;
+        width: 400px;
+    }
+    .cart-collaterals, .cart_totals{
+        width: 800px;
+        margin-left: 400px;
+    }
+    .checkout-button:hover{
+        background-color: black;
+    }
+    .woocommerce-account .woocommerce-MyAccount-navigation{
+        margin-left: 10px;
+    }
+    .woocommerce-account .woocommerce-MyAccount-content{
+        margin-top: -190px;
+    }
 }
 
 /*********************************** Tablet view ********************************/
 @media (min-width: 825px) and (max-width: 1023px) {
 
+    .homeprod{
+        width: 250px;
+    } 
+    .card{
+        height: 200px;
+    }
+    .slide{
+        height: 390px;
+    }
+    .product{
+        width: 800px;
+    }
+    .woocommerce div.product div.images {
+        margin-top: -110px;
+        margin-left: -100px;
+        box-shadow: 20px 10px 20px grey;
+    }
+     .entry-summary{
+        margin-top: -600px;
+        margin-left: 800px;
+        width: 400px;
+        margin-right: -100px;
+    }
+
+    .woocommerce div.product .woocommerce-tabs .panel {
+       margin-top: -400px;
+       margin-bottom: -100px;
+    }
+
+    .products{
+        margin-left: 300px;
+    }
+    .related{
+        height: 200px;
+        margin-left: -0px;
+    }
+    .nav-previous, .nav-next{
+        margin-top: 600px;
+        margin-right: 100px;
+    }
+    .hr{
+        margin-left: -10px;
+    }
+    .hrp{
+        margin-left: -90px;
+        width: 500px;
+    }
+    .more-link{
+        margin-left: 350px;
+        text-align: center;
+    }
+    .socialMedia{
+        text-align: center;
+    }
+    .by{
+        text-align: center;
+    }
 }
 
 /*********************************** Desktop view ********************************/
 @media (min-width: 1023px) and (max-width: 1600px) {
-    
+   
 }
