@@ -41,11 +41,15 @@ ul.menu{
 #primary-menu{
     color:black;
 }
-.wp-image-335 {
+.sliderpic{
     margin-top: -80px;
-    width: 900px;
-    margin-left: 270px;
     text-align: center;
+    width: 80%;
+    margin-left: 150px;
+}
+.txt{
+    color: white;
+    margin-left: 100px;
 }
 .need{
     background-color: #f4d6db; 
