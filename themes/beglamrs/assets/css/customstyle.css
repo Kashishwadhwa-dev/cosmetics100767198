@@ -371,7 +371,6 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
     margin-left: 190px;
     width: 200px;
 }
-
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     height: 120px;
     width: 595px;
@@ -861,4 +860,8 @@ form.woocommerce-EditAccountForm.edit-account{
 
 .wp-image-413{
     margin-left: -100px;
+}
+
+.wp-image-360{
+    margin-right: 20px;
 }
