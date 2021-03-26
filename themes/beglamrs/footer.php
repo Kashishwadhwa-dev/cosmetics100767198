@@ -26,7 +26,7 @@
 				{
 				$tutorial_query->the_post();
 				?>
-				<div class=" cell large-4 medium-4 small-4 tut">
+				<div class=" cell small-offset-1 small-10 medium-4 large-offset-0 large-4 tut">
 					<?php if(has_post_thumbnail()) {  ?>
 					<div class="card">
 						<img class="query-imgs" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>"/>

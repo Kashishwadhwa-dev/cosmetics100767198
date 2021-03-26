@@ -952,3 +952,47 @@ p{
     margin-top: -20px;
     margin-left: -40px;
 }
+
+/*********************************** Mobile view ********************************/
+@media (max-width: 824px){
+
+    .slide{
+        height: 500px;
+    }
+    .socialMedia{
+        margin-left: 150px;
+    }
+    .woocommerce-result-count{
+        margin-top: -300px;
+    }
+    .woocommerce-ordering{
+        margin-left: 200px;
+    }
+    .head6{
+        margin-top: -200px;
+        margin-left: -40px;
+    }
+    .post-301, .post-283,.post-268, .post-258, .post-250, .post-177{
+        margin-left: -500px;
+    }
+    .product{
+        height: 200px;
+        width: 50px;
+        margin-left: -40px;
+        box-shadow: white;
+        border: none;
+    }
+    .woocommerce-loop-product__title{
+        font-size: 11px;
+    }
+}
+
+/*********************************** Tablet view ********************************/
+@media (min-width: 825px) and (max-width: 1023px) {
+
+}
+
+/*********************************** Desktop view ********************************/
+@media (min-width: 1023px) and (max-width: 1600px) {
+    
+}
