@@ -32,7 +32,7 @@
 						<img class="query-imgs" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>"/>
 					</div>
 					<div class="card-section">
-                        <h4 class="TutorialHead"><?php the_title(); ?></h4>
+                        <h4 class="TutorialHeading"><?php the_title(); ?></h4>
                         <p><?php the_excerpt(); ?></p>
                         <p><a href="<?php the_permalink(); ?>">Go to Post ></a></p>
                     </div>
