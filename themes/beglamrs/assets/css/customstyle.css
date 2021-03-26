@@ -637,6 +637,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     background-color:#c01556;
     color: white;
     margin-left: 150px;
+    margin-bottom: 20px;
 }
 .woocommerce ul.products li.product .button:hover {
     
@@ -689,15 +690,17 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 .woocommerce .woocommerce-result-count {
     /* margin: 0 0 1em; */
     margin-left: 60px;
-    font-size: 29px;
+    font-size: 26px;
     color:  #c01556;
     margin-top: -50px;
+    border-bottom: 1px solid #c01556;
 }
 .woocommerce .woocommerce-ordering {
     margin: 0 0 1em;
     margin-left: -300px;
     margin-right: 150px;
     margin-top: -50px;
+    border-radius: 5px 5px 5px 5px;
     background-color: #c01556;
 }
 /*product single*/
@@ -722,6 +725,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     box-shadow: none;
     text-shadow: none;
 }
+.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product {
+    box-shadow: 1px 1px 1px 1px #c01556;
+}
 .woocommerce div.product div.images .woocommerce-product-gallery__wrapper .zoomImg {
     background-color: #fff;
     opacity: 0;
@@ -734,6 +740,10 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     width: 400px;
     margin-left: -450px;
 }
+.cart{
+    margin-left: 10px;
+}
+
 .woocommerce div.product form.cart .variations td.label {
     padding-right: 1em;
     color: white;
