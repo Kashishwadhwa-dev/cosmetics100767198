@@ -851,14 +851,58 @@ p{
         margin-left: 50px;
     }
     .post-301, .post-283,.post-268, .post-258, .post-250, .post-177{
-        margin-left: -500px;
+        margin-left: -800px;
+        margin-right: 100px;
     }
-    .product{
+    .hr{
+        margin-left: 30px;
+    }
+    .four{
+        margin-left: 10px;
+        margin-top: -260px;
+    }
+    .kim{
+        margin-top: -260px;
+        margin-left: 20px;
+    }
+    .postpic{
+        margin-left: 10px;
+        margin-top: -220px;
+    }
+    .para{
+        width: 400px;
+        margin-left: 0px;
+    }
+    
+    .wp-block-media-text__content{
+        width: 400px;
+        margin-left: 120px;
+    }
+    .kimpara{
+        margin-left: 0px;
+        width: 400px;
+    }
+    .fourp{
+        margin-left: 10px;
+    }
+    .hrp{
+        width: 350px;
+        margin-left: 30px;
+    }
+    .more-link{
+        margin-left: 100px;
+    }
+    .products .product{
         height: 200px;
-        width: 50px;
+        width: 100px;
         margin-left: -40px;
         box-shadow: white;
         border: none;
+    }
+    .woocommerce div.product div.images {
+        margin-top: -110px;
+        margin-left: -100px;
+        box-shadow: 20px 10px 20px grey;
     }
     .woocommerce-loop-product__title{
         font-size: 11px;
@@ -868,8 +912,8 @@ p{
         width: 400px;
     }
     .cart-collaterals, .cart_totals{
-        width: 800px;
-        margin-left: 400px;
+        width: 1200px;
+        margin-left: 450px;
     }
     .checkout-button:hover{
         background-color: black;
@@ -879,6 +923,32 @@ p{
     }
     .woocommerce-account .woocommerce-MyAccount-content{
         margin-top: -190px;
+    }
+    .wp-image-363{
+        margin-left: 80px;
+    }
+    
+    .girlpic{
+        margin-left: 25px;
+        margin-top: -30px;
+    }
+    .astxt{
+        margin-left: 100px;
+        width: 300px;
+    }
+    .astxt2{
+        visibility: hidden;
+    }
+    .astxt3{
+        margin-top: -200px;
+    }
+    #wpforms-179{
+        width: 800px;
+        margin-left: -370px;
+    }
+
+    #wpforms-submit-179 {
+        margin-left: 70px;
     }
 }
 
@@ -932,9 +1002,83 @@ p{
         margin-left: -90px;
         width: 500px;
     }
+    .para{
+        margin-left: -90px;
+        width: 450px;
+    }
+    .four{
+        margin-left: 45px;
+    }
+    .kim{
+        margin-left: 20px;
+    }
+    .postpic{
+        margin-left: 40px;
+    }
+    .wp-block-media-text__media{
+        margin-left: -80px;
+    }
     .more-link{
         margin-left: 350px;
         text-align: center;
+    }
+    .woocommerce-cart-form{
+        margin-left: 405px;
+    }
+    .cart-collaterals, .cart_totals{
+        width: 800px;
+        margin-left: 100px;
+    }
+    .cart_totals h2{
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+    .woocommerce-billing-fields{
+        width: 800px;
+        margin-left: -50px;
+    }
+    .woocommerce-additional-fields{
+        width: 800px;
+        margin-top: 950px;
+        margin-left: -640px;
+    }
+    #order_review_heading{
+        color: #a3002c;
+        border: none;
+        margin-left: -10px;
+        margin-bottom: 10px;
+    }
+    .as{
+        text-align: center;
+        margin-bottom: -10px;
+    }
+    .wp-image-363{
+        margin-top: 30px;
+    }
+    .girlpic{
+        margin-left: 60px;
+        height: 500px;
+        width: 400px;
+    }
+    .astxt2{
+        visibility: hidden;
+    }
+    .astxt3{
+        margin-top: -200px;
+    }
+    .astxt4{
+        margin-bottom: 20px;
+    }
+
+    #wpforms-form-179 {
+        width: 800px;
+        margin-left: 300px;
+    }
+    #wpforms-179-field_2{
+        width: 480px;
+    }
+    .wpforms-submit {
+        margin-left: -40px;
     }
     .socialMedia{
         text-align: center;
