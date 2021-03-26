@@ -15,24 +15,24 @@
 <div  class="grid-x grid-margin-x ">
 	
 	<?php
-		$event_args = array(
-		'post_type' =>'beglamrs_event',
+		$tutorial_args = array(
+		'post_type' =>'beglamrs_tutorial',
 		'posts_per_page' => 3,
 	);
-		$event_query = new WP_Query($event_args);
+		$tutorial_query = new WP_Query($tutorial_args);
 		if(is_front_page()){
-		if($event_query->have_posts()){
-			while($event_query->have_posts())
+		if($tutorial_query->have_posts()){
+			while($tutorial_query->have_posts())
 				{
-				$event_query->the_post();
+				$tutorial_query->the_post();
 				?>
-				<div class=" cell large-4 medium-4 small-4 ">
+				<div class=" cell large-4 medium-4 small-4 tut">
 					<?php if(has_post_thumbnail()) {  ?>
 					<div class="card">
 						<img class="query-imgs" src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>"/>
 					</div>
 					<div class="card-section">
-                        <h4 class="EventHead"><?php the_title(); ?></h4>
+                        <h4 class="TutorialHead"><?php the_title(); ?></h4>
                         <p><?php the_excerpt(); ?></p>
                         <p><a href="<?php the_permalink(); ?>">Go to Post ></a></p>
                     </div>
@@ -80,7 +80,7 @@
 		
 		if($instagram_url){
 			?>
-		<a class="instagram_link" href=" <?php echo esc_url($instagram_url);?>"><img class="imageinstagram"  src="<?php echo get_stylesheet_directory_uri();?>/assets/images/in.png"/>
+		<a class="instagram_link" href=" <?php echo esc_url($instagram_url);?>"><img class="imageinstagram" width="45px" height="50px" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/in.png"/>
 		<img src="<?php echo $image_url;?>" />	
 		</a>
 		<?php

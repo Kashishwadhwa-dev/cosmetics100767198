@@ -139,6 +139,8 @@ footer{
 .entry-footer{
     visibility: hidden;
 }
+
+
 .privacy{
     text-decoration:none;
     margin-left: 00px;
@@ -864,4 +866,10 @@ form.woocommerce-EditAccountForm.edit-account{
 
 .wp-image-360{
     margin-right: 20px;
+}
+
+.tut{
+    background-color: palegreen;
+    height: 100px;
+    margin-top: -100px;
 }
