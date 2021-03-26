@@ -85,7 +85,7 @@
 		font-size: 25px;
 	}
 	#mobmenuleft li a , #mobmenuleft li a:visited, .mobmenu-content h2, .mobmenu-content h3, .show-nav-left .mob-menu-copyright, .show-nav-left .mob-expand-submenu i {
-		color: #666;
+		color: #8c132d;
 
 	}
 	.mob-cancel-button {
@@ -101,10 +101,10 @@
 		background-color: #666;
 	}
 	.mobmenu-content #mobmenuleft li:hover, .mobmenu-content #mobmenuright li:hover  {
-		background-color: #666;
+		background-color: #8c132d;
 	}
 	.mobmenu-content #mobmenuright li:hover  {
-		background-color: rgba(255,198,198,0) ;
+		background-color: #8c132d ;
 	}
 	/* 3rd Level Right Menu Items Background color on Hover*/
 	.mobmenu-content #mobmenuright .sub-menu .sub-menu li:hover {
@@ -162,7 +162,7 @@
 		color: #8c132d ;
 	}
 	#mobmenuright li a:hover {
-		color: rgba(255,255,255,0) ;
+		color: #ffffff ;
 	}
 	.mobmenul-container {
 		top: 10px;
@@ -302,12 +302,12 @@
 		color: #222;
 	}
 	.mobmenu-left-panel .mobmenu-display-name {
-		color: #666;
+		color: #8c132d;
 	}
 	.right-menu-icon-text {
 		float: right;
 		line-height: 30px;
-		color: #222;
+		color: #ffffff;
 	}
 	.mobmenur-container i {
 		line-height: 30px;
@@ -324,11 +324,11 @@
 	.mob-retina-logo {
 		height:50px!important;	}
 	.mobmenu-content #mobmenuleft > li > a:hover {
-		background-color: #666;
+		background-color: #8c132d;
 	}
 
 	.mobmenu-content #mobmenuright > li > a:hover {
-		background-color: rgba(255,198,198,0);
+		background-color: #8c132d;
 	}
 	.mobmenu-left-panel .mob-cancel-button {
 		color: #666;

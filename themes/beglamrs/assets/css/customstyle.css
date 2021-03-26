@@ -1,30 +1,31 @@
 @import url("https://use.typekit.net/tll3wuz.css");
+
+/* CSS Styling for all the pages */
+
+/* Body element styling */
 body{
     overflow-x: hidden;
-}
-.site-header{
-    background-color: #f7e0e4;
-    height: 100px;
-    border-bottom: 3px solid #a3002c;
 }
 .site-main{
     background-color: #faf4f5;
 }
 
-.site-footer{
+/* Header styling */
+.site-header{
     background-color: #f7e0e4;
-}
-.first{
-    margin: 40px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    height: 100px;
+    border-bottom: 3px solid #a3002c;
 }
 
-#footer-menu{
-    margin-top:100px;
-    display: inline-block;
-    padding-left: 500px !important;
+/* Logo styling */
+.custom-logo{
+    margin-left:40px;
+    margin-top:20px;
+    height: 70px;
+    width: 150px;
 }
+
+/* Header menu */
 .menu input, .menu select, .menu a, .menu button {
     margin-bottom: 0;
     color: black;
@@ -52,12 +53,6 @@ ul.menu{
     float: right;
 }
 
-.custom-logo{
-    margin-left:40px;
-    margin-top:20px;
-    height: 70px;
-    width: 150px;
-}
 .entry-header{
     visibility: hidden;
 }
@@ -72,79 +67,35 @@ ul.menu{
 #primary-menu{
     color:black;
 }
+
+/********************************** Home page Styling started ******************************/
+
+/*Slider styling starting */
 .slide{
     height: 600px;
     margin-top: -24px;
-}
-.shopsl{
-    margin-top: -80px;
-    height: 200px;
-}
-.sliderpic{
-    text-align: center;
-    width: 100%;
-    margin-left: 0px;
 }
 .txt{
     color: white;
     margin-left: 100px;
 }
-.need{
-    background-color: #f4d6db; 
-    text-align: center;
-    height:50px;
-    margin-top: -10px;
-    padding:10px;
-}
+
 h2{
     text-align: center;
 }
-.wp-image-412{
-    margin-left: 150px;
-    height: 200px;
-    box-shadow: 20px 10px 20px grey;
-}
-.wp-image-367{
-    margin-left: 550px;
-    margin-top: -380px;
-    height: 200px;
-    box-shadow: 20px 10px 20px grey;
-}
-.wp-image-374{
-    margin-left: 950px;
-    margin-top: -385px;
-    height: 200px;
-    box-shadow: 20px 10px 20px grey;
-}
-.wp-image-364{
-    margin-right: 100px;
-}
-.heading1{
-    margin-left: -800px;
-}
-.heading2{
-    margin-left: 40px;
-    margin-top: -100px;
-}
-.heading3{
-    margin-left: 750px;
-    margin-top: -110px;
-}
-.category{
-    font-size: 37px;
-    margin-top: 20px;
-    text-decoration: underline;
-}
 
+/* Styling products on home page */
 .homeprod{
     width:400px;
     margin-left: 30px;
     box-shadow: 2px 2px 2px 2px  #af0647;
 }
+/*hover for text below the product image */
 .wc-block-grid__product-title:hover{
     color:purple;
 }
 
+/* wrapper for video styling */
 .wp-block-embed__wrapper {
     position: relative;
 }
@@ -152,6 +103,7 @@ iframe{
     width:100%;
     height: 600px;
 }
+/* Custom Tutorials started */
 .TutorialHeading{
     color: #af0647;
     font-weight: bold;
@@ -186,37 +138,11 @@ h3{
 .site-info{
     height: 200px;
 }
-.entry-footer{
-    visibility: hidden;
-}
 
+/****************************** Home Page Styling Ended *******************************/
 
-/* .privacy{
-    text-decoration:none;
-    margin-left: 00px;
-    color: black;
-    font-size: 22px;
-    list-style-type: none;
-    margin-top: 20px;
-} */
-.comm{
-    text-decoration:none;
-    margin-left: 00px;
-    color: black;
-    font-size: 22px;
-    list-style-type: none;
-    margin-top: -190px;
-}
-hr{
-    border: 1px solid black;
-    width: 100%;
-}
-.copy{
-    font-size: 22px;
-    text-align: center;
-}
+/****************************** Shop Page Styling Started *******************************/
 
-/*shop page*/
 
 .wp-image-48{
     width: 1100px;
@@ -953,6 +879,27 @@ p{
     margin-left: -40px;
 }
 
+/******************************* Footer Styling started *******************************/
+
+.first{
+    margin: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#footer-menu{
+    margin-top:100px;
+    display: inline-block;
+    padding-left: 500px !important;
+}
+.entry-footer{
+    visibility: hidden;
+}
+.site-footer{
+    background-color: #f7e0e4;
+}
+
+/****************************** Footer styling ended ****************************/
 /*********************************** Mobile view ********************************/
 @media (max-width: 824px){
 
