@@ -1,0 +1,10 @@
+2021-03-26T00:27:31+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-content/themes/beglamrs/footer.php:23
+Stack trace:
+#0 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-includes/template.php(730): require_once()
+#1 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-includes/template.php(676): load_template('/Users/kashishw...', true, Array)
+#2 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-content/themes/beglamrs/page.php(38): get_footer()
+#4 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-includes/template-loader.php(106): include('/Users/kashishw...')
+#5 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-blog-header.php(19): require_once('/Users/kashishw...')
+#6 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public in /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-content/themes/beglamrs/footer.php on line 23
+

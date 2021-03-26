@@ -11,6 +11,25 @@
 
 ?>
 
+
+<?php
+	$recipe_args = array(
+		'post_type' 		=> 'beglamrs_recipe',
+		'posts_per_page' 	=> 3,
+	);
+
+	$recipe_query = new WP_Query($recipe_args);
+
+	if($recipe_query->have_posts()){
+		while($recipe_query->have_posts()){
+			$recipe_query->the_post();
+			?>
+			<h2><?php the_title(); ?></h2>
+			<?php
+		}
+	}
+?>
+
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'beglamrs' ) ); ?>">
