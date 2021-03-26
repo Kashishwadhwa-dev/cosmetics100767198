@@ -15,6 +15,10 @@
 get_header();
 ?>
 
+	<?php if(is_front_page() ) { ?>
+	
+	
+
 	<main id="primary" class="site-main">
 
 		<?php
@@ -33,6 +37,9 @@ get_header();
 
 	</main><!-- #main -->
 
-<?php
+		<?php } ?>
+<?php 
 get_sidebar();
 get_footer();
+
+ 
