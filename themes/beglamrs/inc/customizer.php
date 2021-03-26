@@ -30,6 +30,55 @@ function beglamrs_customize_register( $wp_customize ) {
 			)
 		);
 	}
+
+	
+$wp_customize->add_section( 
+	'Social_Media',
+	array(
+    'title'       => 'Social Media Links',
+	// 'panel'		=>'social_media',
+	) 
+);
+
+//facebook control
+$wp_customize->add_setting( 
+	'facebook_url',
+);
+$wp_customize->add_control( 
+	'facebook_url',
+	array(
+		'label'=>'Facebook URL',
+		'setting'=>'facebook_url',
+		'section'=>'Social_Media',
+	)
+);
+
+//twitter control
+$wp_customize->add_setting( 
+	'twitter_url',
+);
+$wp_customize->add_control( 
+	'twitter_url',
+	array(
+		'label'=>'Twitter',
+		'setting'=>'twitter_url',
+		'section'=>'Social_Media',
+	)
+);
+
+//instagram control
+$wp_customize->add_setting( 
+	'instagram_url',
+);
+$wp_customize->add_control( 
+	'instagram_url',
+	array(
+		'label'=>'Instagram',
+		'setting'=>'instagram_url',
+		'section'=>'Social_Media',
+	)
+);
+
 }
 add_action( 'customize_register', 'beglamrs_customize_register' );
 

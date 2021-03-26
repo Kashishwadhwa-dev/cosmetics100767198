@@ -16,7 +16,7 @@
 	
 	<?php
 		$event_args = array(
-		'post_type' =>'shopstorytheme_event',
+		'post_type' =>'beglamrs_event',
 		'posts_per_page' => 3,
 	);
 		$event_query = new WP_Query($event_args);
@@ -51,7 +51,7 @@
 	
 	<div class="grid-x grid-margin-x">
 		
-    <div class="cell large-4 large-offset-4 first ">
+    <div class="cell large-6 large-offset-5 first ">
 		<h4>Find Us On</h4>
 
 	<!-- Social Media Icons -->
@@ -63,7 +63,7 @@
 		if($facebook_url){
 		?>
 		<div class="socialMedia">
-		<a class="facebook_link" href=" <?php echo esc_url($facebook_url);?>"><img class="imagefacebook"  src="<?php echo get_stylesheet_directory_uri();?>/assets/images/f.png"/> 
+		<a class="facebook_link" href=" <?php echo esc_url($facebook_url);?>"><img class="imagefacebook" width="45px" height="50px"  src="<?php echo get_stylesheet_directory_uri();?>/assets/images/fb.png"/> 
 		<img src="<?php echo $image_url;?>" />
 		</a>
 		<?php	
@@ -71,7 +71,7 @@
 		
 		if($twitter_url){
 			?>
-		<a  class=" twitter_link" href=" <?php echo esc_url($twitter_url);?>"><img class="imagetwitter" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/i.png"/> 
+		<a  class=" twitter_link" href=" <?php echo esc_url($twitter_url);?>"><img class="imagetwitter"  width="45px" height="50px" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/tw.png"/> 
 		
 		<img src="<?php echo $image_url;?>" />
 		</a>
@@ -80,7 +80,7 @@
 		
 		if($instagram_url){
 			?>
-		<a class="instagram_link" href=" <?php echo esc_url($instagram_url);?>"><img class="imageinstagram" src="<?php echo get_stylesheet_directory_uri();?>/assets/img/insta1.png"/>
+		<a class="instagram_link" href=" <?php echo esc_url($instagram_url);?>"><img class="imageinstagram"  src="<?php echo get_stylesheet_directory_uri();?>/assets/images/in.png"/>
 		<img src="<?php echo $image_url;?>" />	
 		</a>
 		<?php
@@ -92,16 +92,16 @@
 
 		<!-- <div class="site-info">
 			<a href=""
-			<?php echo esc_url( __( 'https://wordpress.org/', 'shopstorytheme' ) ); ?>">
+			<?php echo esc_url( __( 'https://wordpress.org/', 'beglamrs' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				// printf( esc_html__( 'Proudly powered by %s', 'shopstorytheme' ), 'WordPress' );
+				// printf( esc_html__( 'Proudly powered by %s', 'beglamrs' ), 'WordPress' );
 				?>
 			</a>
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'shopstorytheme' ), 'shopstorytheme', '<a href="https://charanjeetkaur.com">charanjeet kaur khangura</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'beglamrs' ), 'beglamrs' );
 				?>
 		</div>.site-info -->
 	</div>
@@ -125,10 +125,10 @@
 <div class="cell large-12  third">
 	<p>©️2021 <?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'shopstorytheme' ) );
+				printf( esc_html__( 'beglamrs' ) );
 				?> 
 				<p>All Rights Reserved</p>
-	<p class="privacy">Privacy & Cookie Policy | Terms & Conditions | Copyright Notice</p>
+	<p class="privacy">Proudly powered by Wordpress <?php echo gmdate("Y");?> </p>
 </div>
 </div>
 		

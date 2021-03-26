@@ -51,6 +51,7 @@ if ( ! function_exists( 'beglamrs_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-1' => esc_html__( 'Primary', 'beglamrs' ),
+				'menu-footer' => esc_html__('Footer','beglamrs'),
 			)
 		);
 
@@ -189,6 +190,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Custom Post Type additions.
  */
 require get_template_directory() . '/inc/post-types.php';
+
 
 /**
  * Load Jetpack compatibility file.

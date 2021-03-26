@@ -8,3 +8,7 @@ Stack trace:
 #5 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-blog-header.php(19): require_once('/Users/kashishw...')
 #6 /Users/kashishwadhwa/localsites/cosmetics100767198/app/public in /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-content/themes/beglamrs/footer.php on line 23
 
+2021-03-26T06:18:37+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-content/themes/beglamrs/footer.php on line 131
+
+2021-03-26T06:18:59+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /Users/kashishwadhwa/localsites/cosmetics100767198/app/public/wp-content/themes/beglamrs/footer.php on line 131
+
