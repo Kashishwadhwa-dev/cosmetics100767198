@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<?php if(is_front_page() ) { ?>
+	
 	
 	
 
@@ -37,7 +37,7 @@ get_header();
 
 	</main><!-- #main -->
 
-		<?php } ?>
+		
 <?php 
 get_sidebar();
 get_footer();

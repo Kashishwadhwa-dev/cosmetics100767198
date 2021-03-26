@@ -3,11 +3,17 @@ body{
     overflow-x: hidden;
 }
 header{
-    background-color: #f4d6db;
+    background-color: #f7e0e4;
+    height: 100px;
+    border-bottom: 3px solid #a3002c;
+}
+.site-main{
+    background-color: #faf4f5;
+    margin-top: -24px;
 }
 .menu input, .menu select, .menu a, .menu button {
     margin-bottom: 0;
-    color: #c01556;
+    color: black;
     font-weight: bold;
 }
 .nav{
@@ -16,17 +22,25 @@ header{
     color: black;
 }
 
+.main-navigation{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
 ul.menu{
     color:black;
-
 }
  li{
     color:black;
     text-decoration: none;
+    margin-top: -100px;
+    float: right;
 }
 .custom-logo{
-    margin-left:10px;
+    margin-left:40px;
     margin-top:20px;
+    height: 70px;
+    width: 150px;
 }
 .entry-header{
     visibility: hidden;
@@ -35,16 +49,17 @@ ul.menu{
     color:black;
 }
 .menu-item:hover{
-    background-color:black;
-    color: white;
+    color: #af0647;
+    text-decoration: #af0647;
+    background-color: white;
 }
 #primary-menu{
     color:black;
 }
 .sliderpic{
     text-align: center;
-    width: 80%;
-    margin-left: 150px;
+    width: 100%;
+    margin-left: 0px;
 }
 .txt{
     color: white;
@@ -611,6 +626,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     background-color:#c01556;
     color: white;
     margin-left: 150px;
+}
+.woocommerce ul.products li.product .button:hover {
+    
+    background-color:#ac2a5a!important;
+    color: white;
 }
 .woocommerce ul.products li.product a img {
     width: 80%;
