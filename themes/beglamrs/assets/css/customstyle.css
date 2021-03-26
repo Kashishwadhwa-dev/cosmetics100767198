@@ -14,6 +14,17 @@ body{
 .site-footer{
     background-color: #f7e0e4;
 }
+.first{
+    margin: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#footer-menu{
+    margin-top:100px;
+    display: inline-block;
+    padding-left: 500px !important;
+}
 .menu input, .menu select, .menu a, .menu button {
     margin-bottom: 0;
     color: black;
@@ -180,14 +191,14 @@ h3{
 }
 
 
-.privacy{
+/* .privacy{
     text-decoration:none;
     margin-left: 00px;
     color: black;
     font-size: 22px;
     list-style-type: none;
     margin-top: 20px;
-}
+} */
 .comm{
     text-decoration:none;
     margin-left: 00px;
@@ -329,60 +340,33 @@ hr{
     font-weight: bold;
 }
 /*about */
-.quality{
-    width: 500px;
-    margin-left: 200px;
-}
-.quality1{
-    font-size: 25px;
-    margin-left:-900px;
-}
-.organic{
-    width: 700px;
-    margin-left: 500px;
-    margin-top: -110px;
-}
-.organic1{
-    font-size: 25px;
-    margin-left:-300px;
-}
-.frag{
-    width: 700px;
-    margin-left: 900px;
-    margin-top: -60px;
-}
-.frag1{
-    font-size: 25px;
-    margin-left: -40px;
-    margin-top: -10px;
-}
-.anim{
-    width: 700px;
-    margin-left: 800px;
-    margin-top: -168px;
-}
-.anim1{
-    font-size: 25px;
-    margin-left: 260px;
-    margin-top: -10px;
-    padding-top: 10px;
-}
-.med{
-    width: 700px;
-    margin-left: 1050px;
-    margin-top: -158px;
-}
-.med1{
-    font-size: 25px;
-    margin-left: 760px;
-    margin-top: -10px;
-    padding-top: 10px;
-}
+
 .girlpic{
     width:450px;
     height:450px;
     margin-left: 120px;
     margin-top: 30px;
+}
+.as{
+    margin-top: -60px;
+}
+.astxt{
+    margin-left: -10px !important;
+    color: black;
+}
+.astxt2{
+    margin-left: -30px;
+    color: black;
+}
+.astxt3{
+    margin-left: -10px !important;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+.astxt4{
+    margin-left: -10px !important;
+    margin-top: 40px;
+    margin-bottom: -30px;
 }
 .wp-image-184{
     margin-top: 30px;
@@ -512,7 +496,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 }
 
 .video{
-    margin-left: 300px;
+    margin-left: 10px;
 }
 .postpic{
     margin-left: 150px;
@@ -529,7 +513,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
     width: 600px;
 }
 .vi{
-    margin-left: 300px;
+    margin-left: 10px;
 }
 .four{
     margin-left: 300px;
@@ -552,7 +536,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 .head{
     padding: 10px;
     color: black;
-    margin-top: -80px;
+    margin-top: -120px;
 }
 .head2{
     padding-left: 30px;
@@ -561,12 +545,12 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 .headp2{
     padding: 10px;
     color: black;
-    margin-top: -80px;
+    margin-top: -120px;
 }
 .headp3{
     padding-left: 30px;
     color: black;
-    margin-top: -80px;
+    margin-top: -120px;
     font-size: 43px;
 }
 .headp32{
@@ -576,7 +560,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 .head4{
     padding-left: 30px;
     color: black;
-    margin-top: -80px;
+    margin-top: -120px;
 }
 .headp4{
     padding-left: 280px;
@@ -587,7 +571,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 .head5{
     padding-left: 30px;
     color: black;
-    margin-top: -80px;
+    margin-top: -120px;
 }
 .headp5{
     padding-left: 250px;
@@ -598,7 +582,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 .head6{
     padding-left: 30px;
     color: black;
-    margin-top: -80px;
+    margin-top: -120px;
 }
 .wp-image-305{
     margin-left: 170px;
@@ -607,12 +591,14 @@ div.wpforms-container-full .wpforms-form .wpforms-field-sublabel {
 .comment-form{
     margin-left: 50px;
     width: 500px;
+    margin-top: 20px;
 }
 .comment-reply-title{
     margin-left: 50px;
     background-color: #c01556;
     color: white;
-    width: 220px;
+    width: 420px;
+    height: 80px;
     border-radius: 4px 4px 4px 4px;
     padding: 10px;
 }
@@ -643,6 +629,15 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     
     background-color:#ac2a5a!important;
     color: white;
+}
+.woocommerce-order{
+    margin-left: 100px;
+}
+.woocommerce-order-details__title{
+    margin-left: -400px;
+}
+.woocommerce-order-details{
+    margin-left: 400px;
 }
 .woocommerce ul.products li.product a img {
     width: 80%;
@@ -738,8 +733,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
     margin-bottom: 1em;
     border: 0;
     width: 400px;
-    margin-left: -450px;
+    margin-left: -50px;
 }
+
 .cart{
     margin-left: 10px;
 }
@@ -888,6 +884,14 @@ a{
     border-radius: 5px;
     margin-left: -400px;
 }
+.nav-previous, .nav-next{
+    background-color:pink; 
+    color: white !important;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 10px;
+}
 
 .woocommerce-account .woocommerce-MyAccount-navigation {
     float: left;
@@ -921,4 +925,30 @@ form.woocommerce-EditAccountForm.edit-account{
 
 .wp-image-360{
     margin-right: 20px;
+}
+
+.post-thumbnail{
+    text-align: center;
+}
+.attachment-post-thumbnail{
+    margin-top: -50px;
+    border: 1px solid #c01556;
+}
+p{
+    color: #c01556;
+    margin-left: 10px;
+}
+
+.by, .privacy{
+    text-align: center;
+    color: black;
+    margin-left: -40px;
+    font-size: 17px;
+}
+.contacthead{
+    margin-top: -50px;
+}
+#wpforms-179{
+    margin-top: -20px;
+    margin-left: -40px;
 }

@@ -52,7 +52,7 @@
 	<div class="grid-x grid-margin-x">
 		
     <div class="cell large-6 large-offset-5 first ">
-		<h4>Find Us On</h4>
+		
 
 	<!-- Social Media Icons -->
 		<?php
@@ -80,12 +80,13 @@
 		
 		if($instagram_url){
 			?>
-		<a class="instagram_link" href=" <?php echo esc_url($instagram_url);?>"><img class="imageinstagram" width="45px" height="50px" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/in.png"/>
+		<a class="instagram_link" href=" <?php echo esc_url($instagram_url);?>"><img class="imageinstagram" width="35px" height="40px" src="<?php echo get_stylesheet_directory_uri();?>/assets/images/in.png"/>
 		<img src="<?php echo $image_url;?>" />	
 		</a>
 		<?php
 	}
 		?>
+		
 		</div>
 
 
@@ -106,8 +107,7 @@
 		</div>.site-info -->
 	</div>
 	
-	<div class="cell large-3 large-offset-1 second" >
-	<h5>Quick Links!</h5>
+	<!-- <div class="cell large-3 large-offset-1 second" >
 	<?php
 			
 			if(has_nav_menu('menu-primary')){
@@ -119,15 +119,14 @@
 			);
 		}
 			?>
-	</div>
+	</div> -->
 	</div>
 <div class="grid-x grid-margin-x">
 <div class="cell large-12  third">
-	<p>©️2021 <?php
+	<p class="by"><?php
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'beglamrs' ) );
-				?> 
-				<p>All Rights Reserved</p>
+				?> By Kashish Wadhwa</p>
 	<p class="privacy">Proudly powered by Wordpress <?php echo gmdate("Y");?> </p>
 </div>
 </div>
